@@ -838,7 +838,7 @@ fieldset legend {
 }
 
 .input-radio__input {
-  display: none;
+  opacity: 0;
   position: absolute;
   left: 0;
   top: 0;
