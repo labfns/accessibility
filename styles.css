@@ -973,9 +973,24 @@ fieldset legend {
 }
 
 @media (max-width: 1200px) {
+  .header__logo {
+    left: 49%;
+  }
+  .menu__item:nth-child(4) {
+    margin-right: 100.5px;
+  }
+  .menu__item:nth-child(5) {
+    margin-left: 100.5px;
+  }
   .products-grid {
     column-gap: 30px;
     row-gap: 30px;
+  }
+}
+
+@media (max-width: 992px) {
+  .header__logo {
+    left: 46%;
   }
 }
 
