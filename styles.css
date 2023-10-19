@@ -1056,17 +1056,10 @@ fieldset legend {
 }
 
 .colors-palette__item {
-  width: 16px;
-  height: 16px;
-  padding: 2px;
-  margin-left: 2px;
-  margin-right: 2px;
-}
-
-.colors-palette__sample {
-  display: block;
-  width: 100%;
-  height: 100%;
+  width: 12px;
+  height: 12px;
+  margin-left: 4px;
+  margin-right: 4px;
 }
 
 .product-tags {
