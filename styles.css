@@ -788,6 +788,7 @@ fieldset legend {
 }
 
 .input-group__item {
+  position: relative;
   margin-left: 6px;
   margin-right: 6px;
 }
@@ -852,14 +853,16 @@ fieldset legend {
   position: absolute;
   left: 0;
   top: 0;
-  z-index: 0;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  z-index: 1;
 }
 
 .input-radio__visual {
   position: relative;
   width: 40px;
   height: 40px;
-  z-index: 5;
   display: inline-flex;
   cursor: pointer;
   overflow: hidden;
