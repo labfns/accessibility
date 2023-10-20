@@ -1118,3 +1118,18 @@ fieldset legend {
   opacity: 0;
   cursor: pointer;
 }
+
+.skip-link {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px 15px;
+  background-color: var(--brand-blue);
+  color: #fff;
+  transform: translateY(-100%);
+}
+
+.skip-link:focus {
+  transform: translateY(0);
+}
