@@ -221,7 +221,7 @@ fieldset legend {
   width: 100%;
 }
 
-.header__menu-main {
+.header__row {
   width: 100%;
 }
 
@@ -275,7 +275,7 @@ fieldset legend {
 }
 
 @media (max-width: 768px) {
-  .header__menu-main {
+  .header__row {
     display: none;
   }
 
